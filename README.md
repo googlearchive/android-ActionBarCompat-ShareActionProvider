@@ -4,12 +4,31 @@ Android ActionBarCompat-ShareActionProvider Sample
 This sample shows you how a provide a context-sensitive ShareActionProvider with
 ActionBarCompat, backwards compatible to API v7.
 
+Introduction
+------------
+
+The sample contains a [`ViewPager`][1] which displays content of differing types: image and
+text. When a new item is selected in the ViewPager, the [`ShareActionProvider`][2] is updated with
+a share intent specific to that content.
+
+This Activity extends from [`ActionBarActivity`][3], which provides all of the function
+necessary to display a compatible Action Bar on devices running Android v2.1+.
+
+[1]: http://developer.android.com/reference/android/support/v4/view/ViewPager.html
+[2]: http://developer.android.com/reference/android/widget/ShareActionProvider.html
+[3]: https://developer.android.com/reference/android/support/v7/app/ActionBarActivity.html
+
 Pre-requisites
 --------------
 
 - Android SDK v21
 - Android Build Tools v21.1.1
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/1-gridview.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------

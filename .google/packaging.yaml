@@ -5,8 +5,13 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [UI]
+categories:   [UI, ActionBar]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-ActionBarCompat-ShareActionProvider
+level:        ADVANCED
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:android.support.v7.widget.ShareActionProvider
+    - android:android.support.v7.app.ActionBarActivity
 license: apache2
