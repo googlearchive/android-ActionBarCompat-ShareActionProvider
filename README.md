@@ -29,7 +29,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="screenshots/1-gridview.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/1-image.png" height="400" alt="Screenshot"/> <img src="screenshots/2-text.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
